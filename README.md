@@ -8,7 +8,6 @@
 - [Usage](#usage)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
@@ -50,4 +49,20 @@ To run this project locally, follow these steps:
    npm run dev
    ```
 5. Open your browser and go to [http://localhost:3000](http://localhost:3000).
+
+## Usage
+
+   - On the home page, you will see a list of users fetched from the API.
+   - Click on any user to view their detailed information, including name, email, and city.
+   - The app is fully responsive and works on both desktop and mobile devices.
+
+## Deployment
+
+This application is deployed using Vercel. You can access the live version here:
+https://nuxt-plexicus.vercel.app/
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+     
 
