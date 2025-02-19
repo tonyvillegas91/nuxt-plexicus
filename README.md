@@ -1,75 +1,53 @@
-# Nuxt Minimal Starter
+# Nuxt 3 User Management App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Setup
+## Description
 
-Make sure to install dependencies:
+This is a Nuxt 3 application designed to fetch and display a list of users from the JSONPlaceholder API. Users can click on any user in the list to view detailed information about them. The app is styled using Tailwind CSS and Bootstrap for a modern and responsive design.
 
-```bash
-# npm
-npm install
+## Features
 
-# pnpm
-pnpm install
+- Fetch and display a list of users from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
+- Dynamic user detail pages with formatted data.
+- Styled with Tailwind CSS and Bootstrap for an attractive and responsive UI.
+- Fully functional and deployable to platforms like Vercel or Netlify.
 
-# yarn
-yarn install
+## Technologies Used
 
-# bun
-bun install
-```
+- **Framework**: Nuxt 3
+- **Styling**: Tailwind CSS, Bootstrap
+- **API**: JSONPlaceholder
+- **State Management**: Composables (useUsers.ts)
+- **Utilities**: Format functions for name and email formatting
 
-## Development Server
+## Installation
 
-Start the development server on `http://localhost:3000`:
+To run this project locally, follow these steps:
 
-```bash
-# npm
-npm run dev
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tonyvillegas91/nuxt-plexicus.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd nuxt-plexicus
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and go to [http://localhost:3000](http://localhost:3000).
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
